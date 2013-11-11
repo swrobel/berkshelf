@@ -22,7 +22,7 @@ module Berkshelf
 
     # @return [Hash]
     def dependencies
-      metadata.recommendations.merge(metadata.dependencies)
+      metadata.dependencies
     end
 
     def pretty_print
